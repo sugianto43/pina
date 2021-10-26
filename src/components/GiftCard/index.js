@@ -34,6 +34,24 @@ const GiftCard = () => {
           <GiftRight/>
         </Box>
       </Box>
+      <Box display="flex" justifyContent="space-between" mt="34px">
+        <Box>
+          <Label size={16} weight={600} align="center" style={{marginBottom: 8}}>
+            <span style={{fontFamily: "Gotham Rounded light", fontWeight:400}}>Posisi 1:</span> 25 Juta Rupiah
+          </Label>
+          <Label size={16} weight={600} align="center">
+          <span style={{fontFamily: "Gotham Rounded light", fontWeight:400}}>Posisi 3:</span> 12 Juta Rupiah
+          </Label>
+        </Box>
+        <Box>
+          <Label size={16} weight={600} align="center" style={{marginBottom: 8}}>
+            <span style={{fontFamily: "Gotham Rounded light", fontWeight:400}}>Posisi 2:</span> 15 Juta Rupiah
+          </Label>
+          <Label size={16} weight={600} align="center">
+            <span style={{fontFamily: "Gotham Rounded light", fontWeight:400}}>Posisi 4-53:</span> 1 Juta Rupiah
+          </Label>
+        </Box>
+      </Box>
     </Box>
   )
 }

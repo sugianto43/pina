@@ -1,8 +1,13 @@
 import React from 'react'
-import { Box } from '@material-ui/core'
+import { Box, Divider } from '@material-ui/core'
 import Header from '../../components/Header'
 import WelcomeCard from '../../components/WelcomeCard'
 import GiftCard from '../../components/GiftCard'
+import ConditionsCard from '../../components/ConditionsCard'
+import ExcessCard from '../../components/ExcessCard'
+import ContactCard from '../../components/ContactCard'
+import ThanksComponent from '../../components/ThanksComponent'
+import Footer from '../../components/Footer'
 
 const Home = () => {
   return (
@@ -19,6 +24,12 @@ const Home = () => {
       <Header />
       <WelcomeCard />
       <GiftCard />
+      <ConditionsCard />
+      <ExcessCard />
+      <ContactCard />
+      <ThanksComponent />
+      <Divider />
+      <Footer />
     </Box>
   )
 }
